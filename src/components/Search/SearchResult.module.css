@@ -1,0 +1,8 @@
+.container {
+    position: absolute;
+    border: 1px solid #eee;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 5px 10px #ccc;
+    z-index: 1;
+}

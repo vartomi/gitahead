@@ -1,0 +1,17 @@
+.container {
+    background-color: #3c4146;
+    padding: 16px;
+    height: 85px;
+    overflow: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.container > h3 {
+    margin: 0 16px;
+}
+
+.logo {
+    fill: white;
+}
