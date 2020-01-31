@@ -23,11 +23,13 @@ During the application I had to make some decisions that I want to share first:
   ![ResultState](https://github.com/vartomi/gitahead/blob/master/wiki/images/ResultState.JPG)  
     - You can select one with clicking on it
     - You can select the first with pressing TAB    
-  - If there is no suggestion for the given input, you can press ENTER and it will open the GitHub page with prefilled search for the given input
-  
+  - If there is no suggestion for the given input, you can press ENTER and it will open the GitHub page with prefilled search for the given input  
+  ![RedirectToGithub](https://github.com/vartomi/gitahead/blob/master/wiki/images/RedirectToGithub.JPG)  
 ### Profile card
   - You can select a user from the suggestion, it will show the selected user's profile card with some additional information
+  ![SelectedState](https://github.com/vartomi/gitahead/blob/master/wiki/images/SelectedState.JPG)
   - You can click on the button of the profile card to open the profile on GitHub
+  ![OpenProfileOnGithub](https://github.com/vartomi/gitahead/blob/master/wiki/images/OpenProfileOnGithub.JPG)
 
 ## Test report
 
