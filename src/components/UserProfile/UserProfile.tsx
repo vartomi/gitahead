@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './UserProfile.module.css';
 import { User } from '../../services/users';
+import { ReactComponent as LocationIcon } from '../../assets/location.svg';
+import { ReactComponent as BlogIcon } from '../../assets/blog.svg';
+import { ReactComponent as CompanyIcon } from '../../assets/company.svg';
 
 type UserProfileProps = {
     user: User;
@@ -17,9 +20,9 @@ const UserProfile: React.FC<UserProfileProps> = ({ user: { url, login, name, ava
                         <div>{login}</div>
                     </div>
                     <div className={styles.userMain}>
-                        {company && <div>Company: {company}</div>}
-                        {location && <div>Location: {location}</div>}
-                        {blog && <div>Blog: <a href={blog}>{blog}</a></div>}
+                        {company && <div><CompanyIcon />{company}</div>}
+                        {location && <div><LocationIcon />{location}</div>}
+                        {blog && <div><BlogIcon /><a href={blog}>{blog}</a></div>}
                         <p>{bio}</p>
                     </div>
                     <div className={styles.userFooter}>

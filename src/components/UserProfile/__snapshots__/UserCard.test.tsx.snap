@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCard component should render snapshot 1`] = `
+<div
+  className="container"
+  onClick={[Function]}
+  tabIndex={0}
+>
+  <div
+    className="imgContainer"
+  >
+    <img
+      alt="avatar"
+      className="img"
+      src="avatar"
+    />
+  </div>
+  <div
+    className="profileContainer"
+  >
+    <div
+      className="userHeader"
+    >
+      <span>
+        <strong>
+          name
+        </strong>
+      </span>
+      <span>
+        login
+      </span>
+    </div>
+    <div
+      className="userMain"
+    >
+      bio
+    </div>
+    <div
+      className="userFooter"
+    >
+      <span>
+        Following 
+      </span>
+      <span
+        className="value"
+      >
+        0
+      </span>
+      <span>
+        Followers 
+      </span>
+      <span
+        className="value"
+      >
+        0
+      </span>
+      <span>
+        Repositories 
+      </span>
+      <span
+        className="value"
+      >
+        0
+      </span>
+    </div>
+  </div>
+</div>
+`;

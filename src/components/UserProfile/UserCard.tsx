@@ -7,8 +7,6 @@ type UserCardProps = {
     onSelect: any;
 }
 
-console.log(styles);
-
 const UserCard: React.FC<UserCardProps> = ({ user, onSelect }) => {
     const { login, name, avatar, bio, nrOfFollowers, nrOfRepositories, nrOfFollowing } = user;
     return (

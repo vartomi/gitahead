@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render snapshot 1`] = `
+<header
+  className="container"
+>
+  <ForwardRef(SvgLogo)
+    className="logo"
+  />
+  <h3>
+    GitAhead
+  </h3>
+</header>
+`;

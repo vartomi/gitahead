@@ -17,5 +17,8 @@
 .input:focus {
     border: 1px solid #aaa;
     outline: none;
+}
 
+.input::placeholder {
+    color: #bbb;
 }
