@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar component should render compact snapshot 1`] = `
+<div
+  className="container compact"
+>
+  <ForwardRef(SvgLogo)
+    className="animation"
+    height={24}
+    width={24}
+  />
+</div>
+`;
+
+exports[`ProgressBar component should render snapshot 1`] = `
+<div
+  className="container"
+>
+  <ForwardRef(SvgLogo)
+    className="animation"
+    height={64}
+    width={64}
+  />
+  <div>
+    Loading...
+  </div>
+</div>
+`;

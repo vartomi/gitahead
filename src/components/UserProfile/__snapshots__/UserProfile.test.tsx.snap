@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile component should render snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="innerContainer"
+  >
+    <div
+      className="imgContainer"
+    >
+      <img
+        alt="avatar"
+        className="img"
+        src="avatar"
+      />
+    </div>
+    <div
+      className="profileContainer"
+    >
+      <div
+        className="userHeader"
+      >
+        <div
+          className="userName"
+        >
+          <strong>
+            name
+          </strong>
+        </div>
+        <div>
+          login
+        </div>
+      </div>
+      <div
+        className="userMain"
+      >
+        <div>
+          <ForwardRef(SvgCompany) />
+          company
+        </div>
+        <div>
+          <ForwardRef(SvgLocation) />
+          location
+        </div>
+        <div>
+          <ForwardRef(SvgBlog) />
+          <a
+            href="blog"
+          >
+            blog
+          </a>
+        </div>
+        <p>
+          bio
+        </p>
+      </div>
+      <div
+        className="userFooter"
+      >
+        <span>
+          Following 
+        </span>
+        <span
+          className="value"
+        >
+          0
+        </span>
+        <span>
+          Followers 
+        </span>
+        <span
+          className="value"
+        >
+          0
+        </span>
+        <span>
+          Repositories 
+        </span>
+        <span
+          className="value"
+        >
+          0
+        </span>
+      </div>
+    </div>
+  </div>
+  <a
+    className="buttonLink"
+    href="url"
+  >
+    Open in GitHub
+  </a>
+</div>
+`;

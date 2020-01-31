@@ -1,7 +1,7 @@
 .container {
-    background-color: #3c4146;
+    background-color: #24292e;
     padding: 16px;
-    height: 85px;
+    height: 64px;
     overflow: auto;
     color: white;
     display: flex;

@@ -11,7 +11,7 @@ type SearchResultProps = {
 const SearchResult: React.FC<SearchResultProps> = ({ users, onSelect }) => {
     return (
         <div className={styles.container}>
-            {users.map(user => <UserCard user={user} onSelect={onSelect} />)}
+            {users.map(user => <UserCard key={user.id} user={user} onSelect={onSelect} />)}
         </div>
     );
 }

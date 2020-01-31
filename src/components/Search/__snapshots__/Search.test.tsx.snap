@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component should render snapshot 1`] = `
+<div
+  className="container"
+  onKeyUp={[Function]}
+>
+  <input
+    className="input"
+    id="search-input"
+    onChange={[Function]}
+    placeholder="Search for GitHub users..."
+    type="text"
+    value=""
+  />
+</div>
+`;

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResult component should render snapshot 1`] = `
+<div
+  className="container"
+>
+  <UserCard
+    key="1"
+    onSelect={[MockFunction]}
+    user={
+      Object {
+        "avatar": "avatar",
+        "bio": "bio",
+        "blog": "blog",
+        "company": "company",
+        "email": "email",
+        "id": 1,
+        "joinedAt": "date",
+        "location": "location",
+        "login": "login",
+        "name": "name",
+        "nrOfFollowers": 0,
+        "nrOfFollowing": 0,
+        "nrOfRepositories": 0,
+        "url": "url",
+      }
+    }
+  />
+</div>
+`;

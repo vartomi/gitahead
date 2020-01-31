@@ -1,9 +1,18 @@
-import React from 'react';
-import { render } from '@testing-library/react';
+import { shallow } from 'enzyme'
 import App from './App';
+import React from 'react';
+import Header from './components/Header/Header';
+import Container from './components/Container/Container';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('App component', () => {
+  it('should be rendered with Header and Container', () => {
+    const wrapper = shallow(<App />)
+    expect(wrapper.find(Header)).toBeDefined();
+    expect(wrapper.find(Container)).toBeDefined();
+  });
+
+  it('should render snapshot', () => {
+    const wrapper = shallow(<App />)
+    expect(wrapper).toMatchSnapshot();
+  });
 });
