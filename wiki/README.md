@@ -15,14 +15,18 @@ During the application I had to make some decisions that I want to share first:
 ### Preload
 - The application has a 1s long delay to simulate some preload for the app
 ![InitialLoadingState](https://github.com/vartomi/gitahead/blob/master/wiki/images/InitialLoadingState.png)
+
 ### Search
-  - You can type characters in the input field, 300ms after the last character, it fetches the suggestions (there is a 1s long delay to simulate fetching suggestions)
-  ![InitialState](https://github.com/vartomi/gitahead/blob/master/wiki/images/InitialState.jpg)
-  ![SearchingState](https://github.com/vartomi/gitahead/blob/master/wiki/images/SearchingState.jpg)
-  ![ResultState](https://github.com/vartomi/gitahead/blob/master/wiki/images/ResultState.jpg)
+  - You can type characters in the input field, 300ms after the last character, it fetches the suggestions (there is a 1s long delay to simulate fetching suggestions)  
+  ![InitialState](https://github.com/vartomi/gitahead/blob/master/wiki/images/InitialState.JPG)
+  
+  ![SearchingState](https://github.com/vartomi/gitahead/blob/master/wiki/images/SearchingState.JPG)
+  
+  ![ResultState](https://github.com/vartomi/gitahead/blob/master/wiki/images/ResultState.JPG)  
     - You can select one with clicking on it
-    - You can select the first with pressing TAB
+    - You can select the first with pressing TAB    
   - If there is no suggestion for the given input, you can press ENTER and it will open the GitHub page with prefilled search for the given input
+  
 ### Profile card
   - You can select a user from the suggestion, it will show the selected user's profile card with some additional information
   - You can click on the button of the profile card to open the profile on GitHub
