@@ -4,6 +4,7 @@ During the application I had to make some decisions that I want to share first:
 - The app is using mocked users from a static JSON file default. The app is able to fetch data from github directly, but the public API of GitHub has limitation. So it's turned off in the code. For a real case, a high-performant backend service would provide API for the React App to get the top 5 suggestions based on the typed input.
 - In the typeahead.js app, when you click on a suggestion, it just fills the input element. I thought it would be better for user experience, when the user clicks on a suggestion, then the details profile card is becoming visible. And if the user wants, then he/she can click on the button to open the profile page on GitHub.
 - From user experience perspective I tried to use GitHub's colors to show the connection from design perspective as well.
+- For the suggestions I wanted to minimize the details that the app can show, but if you select a user and open the profile card, then it contains more details. 
 - For this kind of requirements, I've used Hooks. Redux would have been too much for this requirement in my opinion, so I didn't add it. The native state management was enough.
 - Router is also not used, however it is an improvement opportunity, to manipulate the URL with the search like in Google Translate. So if you refresh the page the input field does not loose the value typed before.
 - For tests I've choosed Jest which is in CRA with enzyme and snapshot testing. Each of the test files are located next to their source files.
