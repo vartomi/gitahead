@@ -8,6 +8,7 @@ During the application I had to make some decisions that I want to share first:
 - Router is also not used, however it is an improvement opportunity, to manipulate the URL with the search like in Google Translate. So if you refresh the page the input field does not loose the value typed before.
 - For tests I've choosed Jest which is in CRA with enzyme and snapshot testing. Each of the test files are located next to their source files.
 - For styling, I was thinking to use Less/SASS, but for this small amount of style rules, I've used pure CSS. The stylesheet files are also location next to the components, so it's easier to maintain them, because the design and the markup are bundled and encapsulated.
+- For searching I'm using a controlled input element, and the state of the Search component stores what are the suggestions and what is the value for the search.
 
 ## Folder structure
 - assets (SVG files)
