@@ -18,10 +18,8 @@ During the application I had to make some decisions that I want to share first:
 
 ### Search
   - You can type characters in the input field, 300ms after the last character, it fetches the suggestions (there is a 1s long delay to simulate fetching suggestions)  
-  ![InitialState](https://github.com/vartomi/gitahead/blob/master/wiki/images/InitialState.JPG)
-  
-  ![SearchingState](https://github.com/vartomi/gitahead/blob/master/wiki/images/SearchingState.JPG)
-  
+  ![InitialState](https://github.com/vartomi/gitahead/blob/master/wiki/images/InitialState.JPG)  
+  ![SearchingState](https://github.com/vartomi/gitahead/blob/master/wiki/images/SearchingState.JPG)  
   ![ResultState](https://github.com/vartomi/gitahead/blob/master/wiki/images/ResultState.JPG)  
     - You can select one with clicking on it
     - You can select the first with pressing TAB    
