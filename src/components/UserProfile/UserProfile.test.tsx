@@ -1,4 +1,4 @@
-import { shallow } from 'enzyme'
+import { shallow } from 'enzyme';
 import UserProfile from './UserProfile';
 import React from 'react';
 import { User } from '../../services/users';
@@ -21,9 +21,8 @@ const mockUser: User = {
 };
 
 describe('UserProfile component', () => {
-
     it('should render snapshot', () => {
-        const wrapper = shallow(<UserProfile user={mockUser} />)
+        const wrapper = shallow(<UserProfile user={mockUser} />);
         expect(wrapper).toMatchSnapshot();
     });
 });

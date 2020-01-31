@@ -1,4 +1,4 @@
-import { shallow } from 'enzyme'
+import { shallow } from 'enzyme';
 import UserCard from './UserCard';
 import React from 'react';
 import { User } from '../../services/users';
@@ -24,7 +24,7 @@ const mockUser: User = {
 describe('UserCard component', () => {
 
     it('should render snapshot', () => {
-        const wrapper = shallow(<UserCard user={mockUser} onSelect={onSelectMock} />)
+        const wrapper = shallow(<UserCard user={mockUser} onSelect={onSelectMock} />);
         expect(wrapper).toMatchSnapshot();
     });
 

@@ -9,7 +9,7 @@ type UserProfileProps = {
     user: User;
 }
 
-const UserProfile: React.FC<UserProfileProps> = ({ user: { url, login, name, avatar, blog, bio, nrOfFollowers, nrOfRepositories, nrOfFollowing, company, location, joinedAt } }) => {
+const UserProfile: React.FC<UserProfileProps> = ({ user: { url, login, name, avatar, blog, bio, nrOfFollowers, nrOfRepositories, nrOfFollowing, company, location } }) => {
     return (
         <div className={styles.container}>
             <div className={styles.innerContainer}>

@@ -35,7 +35,8 @@ describe('users service', () => {
     it('getUsers should return api call', async () => {
         fetchMock.mockResponses(
             JSON.stringify(mockUser),
-            JSON.stringify(mockUser[0]))
+            JSON.stringify(mockUser[0])
+        );
         const users = await getUsers(true);
 
         expect(users[0]).not.toBeUndefined();

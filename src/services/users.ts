@@ -18,7 +18,22 @@ export interface User {
     joinedAt: string;
 }
 
-export const mapRawToUser: (rawData: any) => User = function ({ id, avatar_url, login, name, bio, blog, email, public_repos, followers, following, created_at, html_url, company, location }): User {
+export const mapRawToUser: (rawData: any) => User = function ({
+    id,
+    avatar_url,
+    login,
+    name,
+    bio,
+    blog,
+    email,
+    public_repos,
+    followers,
+    following,
+    created_at,
+    html_url,
+    company,
+    location
+}): User {
     return {
         id,
         login,
