@@ -1,0 +1,65 @@
+.container {
+    width: 600px;
+    margin-top: 48px;
+    border: 1px solid #eee;
+    box-shadow: 0px 5px 10px #ccc;    
+    background-color: white;
+    border-bottom: none;
+}
+
+.innerContainer {
+    padding: 48px;
+}
+
+.imgContainer {
+    text-align: center;
+}
+
+.img {
+    max-width: 180px;
+    border-radius: 180px;
+}
+
+.userHeader {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.userName {
+    font-size: 24px;
+}
+
+.userMain {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.userFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.userFooter > span {
+    text-transform: uppercase;
+    color: #aaa;
+    margin-left: 8px;
+}
+
+.userFooter > .value {
+    color: #444;
+}
+
+.buttonLink {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonLink:hover {
+    background-color: #484e5a;
+    text-decoration: none;
+}

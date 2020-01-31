@@ -1,0 +1,58 @@
+.container {
+    padding: 24px;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.container:last-child {
+    border-bottom: none;
+}
+
+.container:hover {
+    background-color: #eee;
+}
+
+.img {
+    max-width: 90px;
+}
+
+.imgContainer {
+    border-radius: 90px;
+    height: 90px;
+    min-width: 90px;
+    overflow: hidden;
+}
+
+.profileContainer {
+    margin-left: 16px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.userHeader > span {
+    margin-right: 8px;
+}
+
+.userMain {
+    flex-grow: 1;
+}
+
+.userFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.userFooter > span {
+    text-transform: uppercase;
+    color: #aaa;
+    margin-left: 8px;
+}
+
+.userFooter > .value {
+    color: #444;
+}
