@@ -51,7 +51,7 @@ During the application I had to make some decisions that I want to share first:
   ![OpenProfileOnGithub](https://github.com/vartomi/gitahead/blob/master/wiki/images/OpenProfileOnGithub.JPG)
 
 ## Test report
-- There are some tests which are only checking one property of a user object, or one property of an element in the shallow object. I could extend those tests anytime, but I wanted to make huge test files for this task, so I skipped 100% coverage for edge cases.
+- There are some tests which are only checking one property of a user object, or one property of an element in the shallow object. I could extend those tests anytime, but I wanted to avoid to make huge test files for this task, so I skipped 100% coverage for edge cases.
 - I've tried to cover every lines of the code, because for these functionalities it was not hard to cover the lines.
 
 ![Image of test report](https://github.com/vartomi/gitahead/blob/master/wiki/images/image.png)
