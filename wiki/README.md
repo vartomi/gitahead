@@ -19,11 +19,15 @@ During the application I had to make some decisions that I want to share first:
   - Search (controller element for searching)
     - SearchResult (presentation component for suggestions)
   - UserProfile (presentation component for profile)
-    - UserCard (presenation component for each suggestion)
+    - UserCard (presentation component for each suggestion)
 - services (API layer)
 - configs (constants)
 - mocks (static JSON for testing)
 
+## Additional libraries
+- lodash.debounce - for debounce the search callback to avoid performance issues and unnecessary API call
+- enzyme-to-json - for snapshot tests
+- jest-fetch-mock - for mocking fetch API
 
 ## Functionality
 
@@ -47,5 +51,7 @@ During the application I had to make some decisions that I want to share first:
   ![OpenProfileOnGithub](https://github.com/vartomi/gitahead/blob/master/wiki/images/OpenProfileOnGithub.JPG)
 
 ## Test report
+- There are some tests which are only checking one property of a user object, or one property of an element in the shallow object. I could extend those tests anytime, but I wanted to make huge test files for this task, so I skipped 100% coverage for edge cases.
+- I've tried to cover every lines of the code, because for these functionalities it was not hard to cover the lines.
 
 ![Image of test report](https://github.com/vartomi/gitahead/blob/master/wiki/images/image.png)
